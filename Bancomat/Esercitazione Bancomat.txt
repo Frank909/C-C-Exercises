@@ -1,0 +1,30 @@
+4 ingressi 
+ingr. colonne
+uscite righe
+16 canali sia input che output
+_______________________________
+PCL 714 --> sk acquisizione
+indivuduare un tasto: linea, colonna
+interrogare riga individuando la colonna
+
+riga: codice binario dal basso verso l'alto
+colnna:da destra verso sinistra.
+
+0= stato logico attivo (stato premuto)
+char mat[4][4]={'7','8',9','F','4','5','6'.....}
+
+vettore 7,11,13,14
+
+scrivere verso periferica e ingr verso la periferica: outp(0x220+13,vettore[i]),val=inp(0x220+6)
+input digitale=0x220+6
+uscita digitale=0x220+13
+E=conferma
+C=delete
+______
+prelievo
+saldo
+_______
+RECORD
+codice fiscale
+cod segreto
+saldo corrente

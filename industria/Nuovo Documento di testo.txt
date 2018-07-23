@@ -1,0 +1,17 @@
+2 sensori
+s2  s1
+0    0->nessun pezzo
+0    1->sta passando un pezzo
+1    0->OK il pezzo è giusto!
+1    1->non accettabile (pezzo difettoso)
+____________________________________________
+
+_ _ _ _ _		 _     _      _
+               		 1     1        motore (1,0)
+                   	   4o2
+
+asm{
+	mov al,0 se voglio spegnere il motore
+	mov dx,925 indirizzo della scheda 0
+	out dx,al
+      }
